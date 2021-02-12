@@ -13,6 +13,8 @@
 		CC0E91B925D48CF70039F592 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0E91B825D48CF70039F592 /* Preview Assets.xcassets */; };
 		CC0E91C425D48CF80039F592 /* SliderTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E91C325D48CF80039F592 /* SliderTabBarTests.swift */; };
 		CC0E91CF25D48CF80039F592 /* SliderTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E91CE25D48CF80039F592 /* SliderTabBarUITests.swift */; };
+		CC0E91E025D4A2000039F592 /* OP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E91DF25D4A2000039F592 /* OP.swift */; };
+		CC0E91EA25D53AB00039F592 /* CurvedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E91E925D53AB00039F592 /* CurvedTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CC0E91CA25D48CF80039F592 /* SliderTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0E91CE25D48CF80039F592 /* SliderTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTabBarUITests.swift; sourceTree = "<group>"; };
 		CC0E91D025D48CF80039F592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0E91DF25D4A2000039F592 /* OP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OP.swift; sourceTree = "<group>"; };
+		CC0E91E925D53AB00039F592 /* CurvedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CC0E91B125D48CF40039F592 /* SliderTabBarApp.swift */,
 				CC0E91B325D48CF40039F592 /* ContentView.swift */,
+				CC0E91E925D53AB00039F592 /* CurvedTabBar.swift */,
+				CC0E91DF25D4A2000039F592 /* OP.swift */,
 				CC0E91B525D48CF70039F592 /* Assets.xcassets */,
 				CC0E91BA25D48CF70039F592 /* Info.plist */,
 				CC0E91B725D48CF70039F592 /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				CC0E91B425D48CF40039F592 /* ContentView.swift in Sources */,
 				CC0E91B225D48CF40039F592 /* SliderTabBarApp.swift in Sources */,
+				CC0E91EA25D53AB00039F592 /* CurvedTabBar.swift in Sources */,
+				CC0E91E025D4A2000039F592 /* OP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
